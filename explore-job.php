@@ -357,7 +357,7 @@ if ($today_date > $conv_date) {
 																							}
 																						} else {
 
-																							print '<button class="btn btn-primary disabled btn-hidden btn-lg collapsed"><i class="flaticon-line-icon-set-padlock"></i> Login to apply this job</button>';
+																							print '<button class="btn btn-primary disabled btn-hidden btn-lg collapsed"><i class="flaticon-line-icon-set-padlock"></i> Login to apply this program</button>';
 																						}
 
 																									?>

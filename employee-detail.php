@@ -383,7 +383,7 @@ if (isset($_GET['empid'])) {
 									</ul>
 
 
-									<h3>Other Attachments</h3>
+									<h3>Practicum Documents</h3>
 									<ul class="employee-detail-list">
 										<?php
 										require 'constants/db_config.php';

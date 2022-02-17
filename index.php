@@ -315,7 +315,7 @@ include 'constants/check-login.php';
 
 			</div>
 
-			<!-- ------------------------------------------ INDUSTRY PARTNERS SECTION --------------------------------------------- -->
+			<!-- ------------------------------------------ PARTNERS SECTION --------------------------------------------- -->
 			<div class="pt-0 pb-50">
 
 				<div class="container">
@@ -327,7 +327,7 @@ include 'constants/check-login.php';
 							<div class="section-title">
 
 								<br>
-								<h2>Industry Partners</h2>
+								<h2>Partners</h2>
 
 							</div>
 
@@ -395,7 +395,7 @@ include 'constants/check-login.php';
 
 							<div class="section-title">
 
-								<h2>INTERNSHIP PROGRAMS</h2>
+								<h2>PROGRAMS</h2>
 
 							</div>
 

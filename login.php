@@ -108,16 +108,16 @@ include 'constants/check-login.php';
 							</li>
 
 							<li>
-								<a href="job-list.php">Job List</a>
+								<a href="job-list.php">Internship Programs</a>
 
 							</li>
 
 							<li>
-								<a href="employers.php">Employers</a>
+								<a href="employers.php">Industry Partner</a>
 							</li>
 
 							<li>
-								<a href="employees.php">Employees</a>
+								<a href="employees.php">Intern</a>
 							</li>
 
 							<li>
@@ -153,10 +153,10 @@ include 'constants/check-login.php';
 					<div class="row gap-20">
 
 						<div class="col-sm-6 col-md-6">
-							<a href="register.php?p=Employer" class="btn btn-facebook btn-block mb-5-xs">Register as Employer</a>
+							<a href="register.php?p=Employer" class="btn btn-facebook btn-block mb-5-xs">Register as Industry Partner</a>
 						</div>
 						<div class="col-sm-6 col-md-6">
-							<a href="register.php?p=Employee" class="btn btn-facebook btn-block mb-5-xs">Register as Employee</a>
+							<a href="register.php?p=Employee" class="btn btn-facebook btn-block mb-5-xs">Register as Intern</a>
 						</div>
 
 					</div>
