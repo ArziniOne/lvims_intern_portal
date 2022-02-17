@@ -43,7 +43,7 @@ if (isset($_GET['page'])) {
 	<meta property="og:image:type" content="image/jpeg" />
 	<meta property="og:image:width" content="500" />
 	<meta property="og:image:height" content="300" />
-	<meta property="og:image:alt" content="Bwire Jobs" />
+	<meta property="og:image:alt" content="LVIMS" />
 	<meta property="og:description" content="LA VERDAD INTERNSHIP MANAGEMENT SYSTEM" />
 
 	<link rel="shortcut icon" href="../images/ico/logo.png">
@@ -221,7 +221,7 @@ if (isset($_GET['page'])) {
 											<a href="experience.php"><i class="fa fa-briefcase"></i> Working Experience</a>
 										</li>
 										<li>
-											<a href="attachments.php"><i class="fa fa-folder-open"></i> Other Attachments</a>
+											<a href="attachments.php"><i class="fa fa-folder-open"></i> Practicum Documents</a>
 										</li>
 										<li>
 											<a href="applied-jobs.php"><i class="fa fa-bookmark"></i> Applied Jobs</a>
@@ -360,7 +360,7 @@ if (isset($_GET['page'])) {
 																				<div class="col-sm-12 col-md-6">
 
 																					<div class="form-group">
-																						<label>Country</label>
+																						<label>Region</label>
 																						<select name="country" required class="selectpicker show-tick form-control" data-live-search="true">
 																							<option disabled value="">Select</option>
 																							<?php
@@ -374,10 +374,7 @@ if (isset($_GET['page'])) {
 																											print ' selected ';
 																										} ?> value="<?php echo $rowb['country_name']; ?>"><?php echo $rowb['country_name']; ?></option>
 																							<?php
-
 																							}
-
-
 																							?>
 																						</select>
 																					</div>
@@ -407,7 +404,7 @@ if (isset($_GET['page'])) {
 
 																					<div class="form-group">
 																						<label>Time Frame</label>
-																						<input class="form-control" value="<?php echo "$timeframe"; ?>" placeholder="Eg: 2015 To 2016" type="text" name="timeframe" required>
+																						<input class="form-control" value="<?php echo "$timeframe"; ?>" placeholder="Eg: 2021 To 2022" type="text" name="timeframe" required>
 																					</div>
 
 																				</div>

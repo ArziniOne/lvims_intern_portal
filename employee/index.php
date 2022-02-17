@@ -205,7 +205,7 @@ if ($user_online == "true") {
 											<a href="experience.php"><i class="fa fa-briefcase"></i> Working Experience</a>
 										</li>
 										<li>
-											<a href="attachments.php"><i class="fa fa-folder-open"></i> Other Attachments</a>
+											<a href="attachments.php"><i class="fa fa-folder-open"></i> Practicum Documents</a>
 										</li>
 										<li>
 											<a href="applied-jobs.php"><i class="fa fa-bookmark"></i> Applied Jobs</a>

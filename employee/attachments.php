@@ -33,18 +33,18 @@ if (isset($_GET['page'])) {
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Other Attachments</title>
-	<meta name="description" content="Online Job Management / Job Portal" />
+	<title>Practicum Documents</title>
+	<meta name="description" content="LA VERDAD INTERNSHIP MANAGEMENT SYSTEM" />
 	<meta name="keywords" content="job, work, resume, applicants, application, employee, employer, hire, hiring, human resource management, hr, online job management, company, worker, career, recruiting, recruitment" />
-	<meta name="author" content="BwireSoft">
+	<meta name="author" content="Aljon Isip">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta property="og:image" content="http://<?php echo "$actual_link"; ?>/images/banner.jpg" />
 	<meta property="og:image:secure_url" content="https://<?php echo "$actual_link"; ?>/images/banner.jpg" />
 	<meta property="og:image:type" content="image/jpeg" />
 	<meta property="og:image:width" content="500" />
 	<meta property="og:image:height" content="300" />
-	<meta property="og:image:alt" content="Bwire Jobs" />
-	<meta property="og:description" content="Online Job Management / Job Portal" />
+	<meta property="og:image:alt" content="LVIMS" />
+	<meta property="og:description" content="LA VERDAD INTERNSHIP MANAGEMENT SYSTEM" />
 
 	<link rel="shortcut icon" href="../images/ico/logo.png">
 
@@ -151,7 +151,7 @@ if (isset($_GET['page'])) {
 
 					<ol class="breadcrumb-list booking-step">
 						<li><a href="../">LVIMS</a></li>
-						<li><span>Other Attachments</span></li>
+						<li><span>Practicum Documents</span></li>
 					</ol>
 
 				</div>
@@ -222,7 +222,7 @@ if (isset($_GET['page'])) {
 											<a href="experience.php"><i class="fa fa-briefcase"></i> Working Experience</a>
 										</li>
 										<li class="active">
-											<a href="attachments.php"><i class="fa fa-folder-open"></i> Other Attachments</a>
+											<a href="attachments.php"><i class="fa fa-folder-open"></i>Practicum Documents</a>
 										</li>
 										<li>
 											<a href="applied-jobs.php"><i class="fa fa-bookmark"></i> Applied Jobs</a>
@@ -242,7 +242,7 @@ if (isset($_GET['page'])) {
 
 									<div class="admin-section-title">
 
-										<h2>Other Attachments</h2>
+										<h2>Practicum Documents</h2>
 
 
 									</div>

@@ -92,7 +92,7 @@ if (isset($_GET['page'])) {
 
 					<div class="logo-wrapper">
 						<div class="logo">
-							<a href="../"><img src="../images/ico/headlogo.png" alt="Logo" style="width:100px;"/></a>
+							<a href="../"><img src="../images/ico/headlogo.png" alt="Logo" style="width:100px;" /></a>
 						</div>
 					</div>
 
@@ -222,7 +222,7 @@ if (isset($_GET['page'])) {
 											<a href="experience.php"><i class="fa fa-briefcase"></i> Working Experience</a>
 										</li>
 										<li>
-											<a href="attachments.php"><i class="fa fa-folder-open"></i> Other Attachments</a>
+											<a href="attachments.php"><i class="fa fa-folder-open"></i> Practicum Documents</a>
 										</li>
 										<li class="active">
 											<a href="applied-jobs.php"><i class="fa fa-bookmark"></i> Applied Internship</a>

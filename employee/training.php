@@ -222,7 +222,7 @@ if (isset($_GET['page'])) {
 											<a href="experience.php"><i class="fa fa-briefcase"></i> Working Experience</a>
 										</li>
 										<li>
-											<a href="attachments.php"><i class="fa fa-folder-open"></i> Other Attachments</a>
+											<a href="attachments.php"><i class="fa fa-folder-open"></i>Practicum Documents</a>
 										</li>
 										<li>
 											<a href="applied-jobs.php"><i class="fa fa-bookmark"></i> Applied Jobs</a>
@@ -425,24 +425,24 @@ if (isset($_GET['page'])) {
 													for ($b = 1; $b <= $records; $b++) {
 
 												?><li class="paging-nav"><a <?php if ($b == $page) {
-																print ' style="background-color:#33B6CB; color:white" ';
-															} ?> href="training.php?page=<?php echo "$b"; ?>"><?php echo $b . " "; ?></a></li><?php
-																																																							}
-																																																							print '<li class="paging-nav"';
-																																																							if ($page == $records) {
-																																																								print 'class="disabled"';
-																																																							}
-																																																							print '><a ';
-																																																							if ($page == $records) {
-																																																								print '';
-																																																							} else {
-																																																								print 'href="training.php?page=' . $nextpage . '"';
-																																																							}
-																																																							print '><i class="fa fa-chevron-right"></i></a></li>';
-																																																						}
+																				print ' style="background-color:#33B6CB; color:white" ';
+																			} ?> href="training.php?page=<?php echo "$b"; ?>"><?php echo $b . " "; ?></a></li><?php
+																																			}
+																																			print '<li class="paging-nav"';
+																																			if ($page == $records) {
+																																				print 'class="disabled"';
+																																			}
+																																			print '><a ';
+																																			if ($page == $records) {
+																																				print '';
+																																			} else {
+																																				print 'href="training.php?page=' . $nextpage . '"';
+																																			}
+																																			print '><i class="fa fa-chevron-right"></i></a></li>';
+																																		}
 
 
-																																																								?>
+																																				?>
 
 											</ul>
 
